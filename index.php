@@ -8,6 +8,8 @@
 
     $testoCensurato = str_replace( $censuraParola, '***', $testo);
 
+    $lunghezzaTestoCensurato = strlen($testoCensurato);
+
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +25,7 @@
     <h1>Testo: <?php echo $testo ?></h1>
     <p>Lunghezza Testo: <?php echo $lunghezzaTesto ?></p>
     <h2>Testo Censurato: <?php echo $testoCensurato ?></h2>
+    <p>Lunghezza Testo Censurato: <?php echo $lunghezzaTestoCensurato ?></p>
     
 </body>
 </html>
