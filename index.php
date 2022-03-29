@@ -1,5 +1,7 @@
 <?php
 
+    $testo = "Test";
+
 ?>
 
 <!DOCTYPE html>
@@ -12,5 +14,7 @@
 </head>
 <body>
     
+    <h1><?php echo $testo ?></h1>
+
 </body>
 </html>
