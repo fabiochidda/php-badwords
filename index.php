@@ -1,6 +1,8 @@
 <?php
 
-    $testo = "Test";
+    $testo = "Oggi come oggi viene censurato tutto, tra un po' non si potrà dire neanche dire cacca";
+
+    $lunghezzaTesto = strlen($testo);
 
 ?>
 
@@ -14,7 +16,8 @@
 </head>
 <body>
     
-    <h1><?php echo $testo ?></h1>
-
+    <h1>Testo: <?php echo $testo ?></h1>
+    <p>Lunghezza Testo: <?php echo $lunghezzaTesto ?></p>
+    
 </body>
 </html>
